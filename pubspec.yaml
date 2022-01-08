@@ -1,0 +1,29 @@
+name: TESTINGAPP
+description: a flutter stepper widget with nice aniamtion
+version: 0.0.1
+
+homepage: https://github.com/Rajchowdhury420
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  percent_indicator: ^3.4.0
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  # - assets
