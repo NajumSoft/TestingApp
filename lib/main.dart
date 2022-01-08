@@ -1,6 +1,6 @@
-import 'package:TESTINGAPP/homepage.dart';
 import 'package:TESTINGAPP/myLandingPage.dart';
-import 'package:TESTINGAPP/src/raz.dart';
+import 'package:TESTINGAPP/src/prograssBar.dart';
+import 'package:TESTINGAPP/src/textField.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
-        home: homeOne());
+        home: myTextField());
   }
 }
